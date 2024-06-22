@@ -81,6 +81,9 @@
                                         <label for="Title">Titolo</label>
                                         <input type="text" class="form-control"
                                             placeholder="Inserisci il titolo del libro" aria-label="Title">
+                                        <small id="inputHelp" class="form-text text-muted">Titolo versione
+                                            italiana</small>
+
                                     </div>
                                 </div>
 
@@ -88,10 +91,17 @@
                                 <div class="container">
                                     <div class="row pb-4 border-bottom">
                                         <div class="col-lg-4 col-12 py-3">
-                                            <label for="opzioni di genere">Genere</label>
-                                            <input type="text" class="form-control"
-                                                placeholder="Inserisci il titolo del libro" aria-label="Title">
+                                            <label for="genere" class="form-label">Genere</label>
+                                            <select id="genere" class="form-select">
+                                                <option selected>Genere</option>
+                                                <option>Femmina</option>
+                                                <option>Maschio</option>
+                                                <option>Binary</option>
+                                                <option>NoB</option>
+                                            </select>
                                         </div>
+
+
                                         <div class="col-lg-4 col-12 py-3">
                                             <label for="Anno">Anno di Pubblicazione</label>
                                             <input type="text" class="form-control" placeholder="Inserisci l'anno"
